@@ -1,2 +1,6 @@
-.git
 node_modules
+.env
+.env.local
+*.pem
+npm-debug.log
+.git
