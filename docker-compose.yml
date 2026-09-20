@@ -1,7 +1,6 @@
 services:
   server:
-    build:
-      context: .
+    build: .
     volumes:
        - db_data_sqlite:/var/lib/kutt
        - custom:/kutt/custom
